@@ -105,7 +105,7 @@ Find-AllVulns
 Unquoted Service Path:
 
 How to find Unquoted Service Path?
-Open powershell and use this command:
+Open powershell and use this command (CMD):
 wmic service get name,displayname,pathname,startmode |findstr /i "auto" |findstr /i /v "c:\windows\\" |findstr /i /v """'
 
 Or use JAWS with this command : 
